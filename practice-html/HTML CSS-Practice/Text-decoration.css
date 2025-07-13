@@ -1,0 +1,41 @@
+.underline-default{
+    text-decoration-line: underline;
+}
+.overline-red{
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+}
+.line-through-dashed{
+    text-decoration-line: line-through;
+    text-decoration-color: purple;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
+}
+.underline-overline-wavy{
+    text-decoration-line: underline overline;
+    text-decoration-color: yellow;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+}
+.all-decoration-double{
+    text-decoration-line: underline overline line-through;
+    text-decoration-style: double;
+    text-decoration-color: magenta;
+    text-decoration-thickness: 2px;
+}
+.underline-dotted-thin{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness:3px;
+    text-decoration-color: orange;
+}
+.line-through-wavy-thick{
+    text-decoration-line: line-through;
+    text-decoration-color: lightseagreen;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 7px;
+}
+.no-decoration{
+    text-decoration: none;
+}

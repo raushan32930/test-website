@@ -1,0 +1,141 @@
+/*:first-child &last-child Examples (These only apply if more than one child exists)*/
+
+
+/*It will select the first child of type li in the ul with class demo-firstlast*/
+ul.demo-firstlast li:first-child{
+    background:#ffe082;
+    color: #0b17c0;
+    font-weight: bold;
+    border-left: 4px solid #fbc02d;
+}
+ul.demo-firstlast li:last-child{
+    background: #c5e1a5;
+    color: #1b5e20;
+    font-weight: bold;
+    border-right: 4px solid #558b2f;
+}
+div.demo-firstlast p:first-child{
+    background: #b3e5fc;
+    color: #01579b;
+    font-weight: bold;
+    border-left: 4px solid #0288d1;
+}
+div.demo-firstlast p:last-child{
+    background: #f3e5f5;
+    color: #6a1b9a;
+    font-weight: bold;
+    border-right: 4px solid #ab47bc;
+}
+ol.demo-firstdemo li:first-child{
+    background: #ffe0b2;
+    color: #e65100;
+    border-left: 4px solid #00bcd4;
+}
+ol.demo-firstdemo li:last-child{
+    background: #116677;
+    color: #abfd32;
+    border-left: 4px solid#adfd12;
+}
+/*================:only-child & :only-of-type (use in single child/only child=============================*/
+div.demo-only>p:only-child{
+    background: #56fdac;
+    color: #f4321a;
+    border: 2px solid #f907f1;
+    font-weight: bold;
+}
+div.demo-only>span:only-of-type{
+    background: #d634a9;
+    color: #d1d1f6;
+    border: #116677;
+}
+ul.demo-only li:only-child{
+    background: #e8f1e9;
+    color: #f7a5bb;
+    border: 6px solid #dca324;
+}
+div.demo-only2 >em:only-of-type{
+    background: #fba235;
+    color: #f901a5;
+    border: 2px dashed #abfd1a;
+    font-weight: bold;
+}
+div.demo-only2>b:only-of-type{
+    background: #fd975a;
+    color: #ddffaa;
+    border: 2px solid #ffe082;
+}
+/* :nth-child(n), & :nth-last-child(n) Examples (add at least 5 children to aviod conflicts*/
+ul.demo-nth li:nth-child(3){
+    background: #f0a1a0;
+    color: #a0fcab;
+    border-left: 3px solid #a1a1f9;
+}
+ul.demo-nth li:nth-last-child(2){
+    background: lightblue;
+    color: red;
+}
+ul.demo-nth li:nth-child(even){
+    font-style: italic;
+    background: #e3fdfd;
+}
+div.demo-nth p:nth-child(4){
+    background: #ffecb3;
+    color: #e65100;
+    border: 2px solid #ff9800;
+}
+ol.demo-nth li:nth-child(2){
+    background: #e0f2f1;
+    color: #00695c;
+    border: 3px dashed #004d40;
+}
+ol.demo-nth li:nth-last-child(2){
+    background: #fbe9e7;
+    color: #bf360c;
+    border: 1px solid #ff5722;
+}
+/*:first-of-type, :last-of-type,:nth-of-type(n), nth-last-of-type(n)*/
+
+div.demo-type >p:first-of-type{
+    background: #f3e3a1;
+    color: #f6a4c2;
+    border: 2px solid #ff3456;
+}
+div.demo-type>p:last-of-type{
+    background: #ffe082;
+    color: #ff6f00;
+    border: 3px solid black;
+}
+div.demo-type>span:first-of-type{
+    background: grey;
+    color: red;
+    font-size: 30px;
+}
+div.demo-type>span:last-of-type{
+    background: #f3e5f5;
+    color: #8e24aa;
+    border: 2px dashed #6a1b9a;
+}
+div.demo-type>em:nth-of-type(2){
+    background: lightcoral;
+    color: red;
+}
+div.demo-type>p:nth-last-of-type(2){
+    background: #ffe0b2;
+    color: #ff6f00;
+    border: 1px solid black;
+}
+/*:empty Example (These element must have absolutely no content inside*/
+.empty-example:empty,
+div.demo-empty>span:empty,
+div.demo-empty>p:empty{
+    background: #f44336;
+    min-height: 32px;
+    min-width: 80px;
+    display: inline-block;
+    border: 2px solid #b71cc1;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    font-style: italic;
+}

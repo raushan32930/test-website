@@ -1,0 +1,23 @@
+/* Style for parent element */
+.parent{
+    background-color: lightblue;
+    padding:20px;
+}
+/* Style for Descendant element */
+.parent p{
+    color: darkblue;
+    font-size: 40px;
+}
+/*Style for Descendant element*/
+.parent div{
+    background-color: lightgreen;
+    font-size: 12px;
+}
+.parent div p{
+    background-color: darkorchid;
+    font-size: 40px;
+}
+li{
+    background-color: greenyellow;
+    font-size: 20px;
+}

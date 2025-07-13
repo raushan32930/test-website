@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>>Pseudo Elements for Elements and Forms</title>
+        <link rel="stylesheet" href="./Pseudo-element2.css">
+    </head>
+    <body>
+        <a href="../../../index.html">Home Page</a>
+        <h1>Pseudo Element for Elements and Form Controls</h1>
+        <!--  ::Details-content         -->
+          <section class="details-section">
+             <h2>Course Syllabus(Expandable)</h2>
+             <details class="details-expand">
+                <summary>Show Syllabus</summary>
+                <div>
+                    <ul>
+                        <li>Introduction to Web Development</li>
+                        <li>HTML And CSS basics</li>
+                        <li>JavaScript Essentials</li>
+                    </ul>
+                </div>
+             </details>
+             <details class="details-expand"open>
+                <summary>Show Advanced Modules</summary>
+                <div>
+                    <ul>
+                        <li>React and SPA Architecture</li>
+                        <li>DevOps Fundamentals</li>
+                        <li>Backend integration</li>
+                    </ul>
+                </div>
+             </details>
+          </section><hr>
+          <!--    ::file-selector-button       -->
+              <section class="file-selector-section">
+                <h2>Resume Upload</h2>
+                <input type="file" class="file-selector">
+                <input type="file" class="file-selector"multiple>
+              </section><hr>
+              <!--     ::placeholder-shown       -->
+                   <section class="placeholder-section">
+                    <h2>Contact Form</h2>
+                    <input type="text" class="placeholder-input" placeholder="Your Name...">
+                    <input type="email" class="placeholder-input" placeholder="Your Email..">
+                    <textarea class="placeholder-input" placeholder="Type Your Message...."></textarea>
+                   </section><hr>
+    </body>
+</html>

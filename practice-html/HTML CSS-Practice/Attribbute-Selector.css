@@ -1,0 +1,32 @@
+/*  ^ -> It means start with*/
+a[href^="http"]{
+    color: green;
+}
+/* $ -> It means ends with */
+a[href$=".png"]{
+    font-size:50px;
+}
+/*  *-> Search for the value specified */
+a[href*="img"]{
+    background-color: yellow;
+}
+
+input[type="text"]{
+    color: chocolate;
+    background-color: beige;
+}
+input[type="button"]{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+div[data-role="admin"]{
+    color: cyan;background-color:black ;
+}
+div[data-role="user"]{
+    color:brown;
+    background-color: lightblue;
+}
+div[data-role="guest"]{
+    color: hotpink;
+    background-color:azure;
+}

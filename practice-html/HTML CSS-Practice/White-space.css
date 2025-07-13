@@ -1,0 +1,12 @@
+.pre-wrap{
+    white-space: pre-wrap;
+}
+.normal-white-space{
+    white-space: normal;
+}
+.no-wrap{
+    white-space: nowrap;
+}
+.pre{
+    white-space: pre;
+}

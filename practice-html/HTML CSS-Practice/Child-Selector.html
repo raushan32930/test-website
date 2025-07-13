@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Child Selector Example</title>
+        <link rel="stylesheet" href="./Child-Selector.css">
+    </head>
+    <body>
+        <a href="../../index.html">Home Page</a>
+        
+        <div class="parent">
+            <h1>This is the parent element.</h1>
+            <!--  Direct Child Paragraph  -->
+              <p>This is a paragraph inside parent element.</p>
+              <!--  Nested Div  -->
+              <div>
+                <p>This paragraph is nested inside a div.<br>The style for .parent &gt; p will not apply</p>
+             <span>This is inside div.</span>
+              </div>
+              <!--  Direct Child Element with ID  -->
+                <section id="announcement">
+                    <h2>Important Announcement</h2>
+                </section>
+                <!--  Direct Child Element with a nested UL  -->
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Course</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li id="itemjquery" >jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>React</li>
+                    <li>Angular</li>
+                    <li>Vue</li>
+                    <li>Tailwind</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+/* Selector Example */
+/* Universal Selector */
+*{
+    color:red;
+}
+/* body{
+    color:black;
+}
+    /* Element Selector */
+    p{
+        color: deeppink;
+        background-color: rgb(224, 224, 102);
+    }
+    div{
+        color: green;
+    }
+    span{
+        color: rgba(60, 20, 240, 0.944);
+    }
+    /* Class Selector */
+    .red{
+        color: red;
+    }
+    .satyam{
+        color: rgb(0, 4, 255);
+        background-color: salmon;
+    }
+    .essaki{
+        color: yellow;
+        background-color: darkcyan;
+    }
+    /* ID Selector */
+    #selector2{
+        background-color: cornflowerblue;
+    }
+    /* child Selector */
+    .parent > p{
+        color: rgb(7, 7, 7);
+        background-color: rgb(158, 59, 59);
+    }
+    #firstparagraph{
+        color: rgb(255, 255, 255);
+        background-color: black;
+    }
+    .myspanstyle{
+        color: cornsilk;
+        background-color: darkmagenta;
+    }
+    .whatiscss{
+        color: rgb(7, 89, 161);
+        background-color: aqua;
+    }
+    .foregroundcolor{
+        color: deepskyblue;
+    }
+    .mybackgroundcolor{
+        background-color: turquoise;
+    }
+ol{
+    color: red;
+    font-size: 30px;
+}

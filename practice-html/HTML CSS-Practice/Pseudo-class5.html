@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form State Pseudo-classes - Chipi Technologies</title>
+        <link rel="stylesheet" href="./Pseudo-class5.css">
+    </head>
+    <body>
+        <a href="../../../index.html">Home Page</a>
+        <h1>Form State Pseudo-Classes Demo</h1>
+        <!--==========================:read-only & :read-write===========================-->
+        <section>
+            <h2>:read-only and :read-write</h2>
+            <form>
+                <label>Read-only text:
+                    <input type="text" class="readonly-demo" value="You can't change me !" readonly>
+                </label><br>
+                <label>Read-only Textarea :
+                    <textarea class="readonly-demo" readonly>Readonly Textarea Example</textarea>
+                </label><br>
+                <label>Editable input :
+                    <input type="text" class="readwrite-demo" placeholder="Type here !...">
+                </label><br>
+                <label>Editable Textarea :
+                    <textarea class="readwrite-demo" placeholder="Edit me !"></textarea>
+                </label>
+            </form>
+        </section><hr>
+        <!--  :placeholder-shown          -->
+          <section>
+            <h2>: placeholder-shown</h2>
+            <form>
+                <label>with placeholder:
+                    <input type="text" class="placeholder-demo" placeholder="start typing...">
+                </label><br>
+                 <label>Textarea Placeholder:
+                    <textarea class="placeholder-demo" placeholder="Start typing...."></textarea>
+                 </label><br>
+                 <label>No Placeholder: 
+                    <input type="text" class="placeholder-demo">
+                 </label>
+            </form>
+          </section><hr>
+    </body>
+</html>

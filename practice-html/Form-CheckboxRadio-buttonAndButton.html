@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form Elements</title>
+    </head>
+    <body>
+        <a href="../../index.html">home page</a>
+        <br><br>
+        <p><strong>Select the course </strong>you are intrested in</p>
+        <p>Name attribute is used to create a group of radio buttons</p>
+        <p>The radio with the same name will be considered as the member of same group</p>
+        <p>Value attribute is used to set the value of the radio buttons</p>
+        <form>
+            <input type="radio" id="GUI" name="Tname" value="GUI">
+            <label for="GUI"><b>Graphical User Interface</b></label><br>
+            <input type="radio" id="Backend" name="Tname" value="Backend">
+            <label for="Backend"><b>Backend Programming</b></label><br>
+            <input type="radio" id="ML" name="Tname" value="ML">
+            <label for="ML"><b>Machine Learning</b></label><br><br><br><br>
+            <input type="checkbox" id="C" name="Cprogramming" value="C Programming">
+            <label for="C"><b>C Language</b></label><br>
+            <input type="checkbox" id="Cpp" name="Cpp language" value="Cplusplus language">
+            <label for="Cpp"><b>C++ Language</b></label><br>
+            <input type="checkbox" id="Java" name="Java programming" value="Java Programming">
+            <label for="Java"><b>Java Language</b></label><br>
+            <input type="checkbox" id="Python" name="Python" value="Python Programming">
+            <label for="Python"><b>Python Language</b></label><br><br>
+            <input type="button" id="proceed" value="Proceed" name="Proceed" onclick="alert('hello world')" />
+            <input type="button" id="btn" value="Cancel" name="Cancel-btn" onclick="alert('hello world')" />
+            <input type="reset" id="reset" value="Reset">
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </body>
+</html>

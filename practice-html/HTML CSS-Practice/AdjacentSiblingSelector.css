@@ -1,0 +1,4 @@
+/* This CSS file demonstrate the use of the Adjacent Sibling Selector*/
+h2 + p{
+    color:green ;
+}

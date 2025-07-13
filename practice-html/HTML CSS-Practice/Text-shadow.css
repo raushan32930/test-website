@@ -1,0 +1,27 @@
+.container{
+    border: 1px solid #ac3d3d;
+    padding: 10px;
+    background-color: #9e74c5;
+    margin: 5px;
+}
+.shadow1{
+    text-shadow: 5px 5px;
+}
+.shadow2{
+    text-shadow: 5px 5px 5px;
+}
+.shadow3{
+    text-shadow: 5px 5px 5px #c52d2d;
+}
+.shadow4{
+    text-shadow: 5px 5px 5px #fdfdfd, 10px 3px 7px#f009dc, 15px 5px 7px #f00ca4;
+}
+.shadow5{
+    text-shadow: 3px 3px 2px #fff,
+    6px 6px 4px #ff0,
+    9px 9px 6px #f90,
+    12px 12px 8px #f00,
+    15px 15px 10px #a90,
+    18px 18px 12px #00f;
+
+}

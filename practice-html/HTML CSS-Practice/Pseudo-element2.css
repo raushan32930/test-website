@@ -1,0 +1,36 @@
+/*=============================== ::details-content for expandable content*/
+
+.details-expand::details-content{
+    background: #febcad;
+    border-left: 4px solid #abcdef;
+    font-size: 1.1em;
+    color: #fbdace;
+}
+/*=====================  ::file-selector-button================*/
+
+.file-selector::file-selector-button{
+    background: #123456;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.file-selector::file-selector-button:hover{
+    background: #1b5e20;
+}
+/*===================::placeholder for input and textarea fields===============*/
+
+.placeholder-input::placeholder{
+    color: #fa45cd;
+    font-style: italic;
+    opacity: 1;
+    font-size: 1em;
+}
+.placeholder-input:focus::placeholder{
+    color: #fbadec;
+    opacity: 0.7;
+}

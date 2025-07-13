@@ -1,0 +1,58 @@
+<!DOCTYPE html><html>
+    <head>
+        <title>CSS Form Validation Pseudo-classes - Chipi Technologies</title>
+        <link rel="stylesheet" href="./Pseudo-class4.css">
+    </head>
+     <body>
+        <a href="../../../index.html">Home Page</a>
+        <h1>Form Validation & Input State Pseudo-Classes Demo</h1>
+        <!--============:valid & :invalid============-->
+        <section>
+            <h2>:valid and :invalid</h2>
+        <form>
+            <label>Email (must be valid)
+            <input type="email" class="valid-invalid-demo"required placeholder="abc@gmail.com"></label>
+            <br><label>Pattern (digits only)
+                <input type="text" class="valid-invalid-pattern" pattern="/d+"required placeholder="Numbers only">
+            </label><br>
+        </form>
+        </section><hr>
+        <!--   :required  & :optional        -->
+           <section>
+            <h2>:required and :optional</h2>
+            <form>
+                <label>Name (required)
+                    <input type="text" class="required-demo" required placeholder="Enter your name...">
+                </label><br>
+                <label>Comment (Optional)
+                    <input type="text" class="optional-demo">
+                </label><br>
+            </form>
+           </section><hr>
+           <!--========== :in-range & :out-of-range========-->
+           <section>
+            <h2>:in-range and :out-of-range</h2>
+            <form>
+                <label>Age (10-30)
+                    <input type="number" class="range-demo" min="10" max="30">
+                </label><br>
+                <label>Score (0-100)
+                    <input type="range" class="range-demo2" min="0" max="100">
+                </label>
+            </form>
+           </section><hr>
+           <!--    :default           -->
+               <section>
+                <h2>:default</h2>
+                <form>
+                    <button type="submit" class="default-demo">Submit (Default)</button>
+                    <button type="button" class="default-demo">Secondary</button>
+                </form>
+                <form>
+                    <input type="radio" name="color" class="default-radio"checked>red
+                    <input type="radio" name="color" class="default-radio">blue<br>
+                    <input type="radio" name="color" class="default-radio">Green
+                </form>
+               </section><hr>
+     </body>
+</html>
